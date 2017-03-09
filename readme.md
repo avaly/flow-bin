@@ -1,14 +1,18 @@
-# flow-bin [![Build Status](https://travis-ci.org/flowtype/flow-bin.svg?branch=master)](https://travis-ci.org/flowtype/flow-bin)
+# @avaly/flow-bin-linux
 
-> Binary wrapper for [Flow](http://flowtype.org) - A static type checker for JavaScript
+[![Build Status](https://travis-ci.org/avaly/flow-bin.svg?branch=master)](https://travis-ci.org/avaly/flow-bin)
 
-OS X, Linux (64-bit) and Windows binaries are currently [provided](http://flowtype.org/docs/getting-started.html#_).
+> Linux binary wrapper for [Flow](http://flowtype.org) - A static type checker for JavaScript
+
+NOTE: **Only Linux (64-bit) binaries** are currently with this package.
+
+For other binaries, please use the official [`flow-bin`](https://github.com/flowtype/flow-bin).
 
 
 ## CLI
 
 ```
-$ npm install --global flow-bin
+$ npm install --global @avaly/flow-bin-linux
 ```
 
 ```
@@ -19,12 +23,12 @@ $ flow --help
 ## API
 
 ```
-$ npm install --save flow-bin
+$ npm install --save @avaly/flow-bin-linux
 ```
 
 ```js
 const execFile = require('child_process').execFile;
-const flow = require('flow-bin');
+const flow = require('@avaly/flow-bin-linux');
 
 execFile(flow, ['check'], (err, stdout) => {
 	console.log(stdout);
