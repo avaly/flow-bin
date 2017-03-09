@@ -6,3 +6,10 @@ node_js:
   - '6'
 script:
   - make test
+
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: publish.sh
+    on:
+      tags: true
