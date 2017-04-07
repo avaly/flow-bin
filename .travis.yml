@@ -1,15 +1,11 @@
 sudo: false
 language: node_js
 node_js:
-  - 'stable'
-  - '4'
   - '6'
+  - '4'
+
 script:
   - make test
 
-deploy:
-  - provider: script
-    skip_cleanup: true
-    script: publish.sh
-    on:
-      tags: true
+after_success:
+  - ./publish.sh
