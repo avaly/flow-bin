@@ -29,3 +29,13 @@ get-flow = \
 
 flow-linux64-v%/flow:
 	$(get-flow)
+
+.PHONY: upgrade
+upgrade: clean
+	echo "Upgrading to Flow version $(UPGRADE_VERSION)..."
+	sed -i 's/"version": "$(FLOW_VERSION)"/"version": "$(UPGRADE_VERSION)"/' \
+		package.json
+	make all
+	git add .
+	git commit -m "v$(UPGRADE_VERSION)"
+	git tag -a "v$(UPGRADE_VERSION)" -m "v$(UPGRADE_VERSION)"
