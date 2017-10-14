@@ -1,1 +1,1 @@
-c247bf1203bb11dea6640c9b991ae8753ff9e4b5cad4c355cb8cc0602be9fe75  flow-linux64-v0.56.0/flow
+d7d18bd02cbebfd436e41e0a87ae6acc12c5b99e544bb2d9dbb44ac28554eb06  flow-linux64-v0.57.2/flow
