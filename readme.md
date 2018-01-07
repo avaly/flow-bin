@@ -4,7 +4,7 @@
 
 > Linux binary wrapper for [Flow](http://flowtype.org) - A static type checker for JavaScript
 
-NOTE: **Only Linux (64-bit) binaries** are currently with this package.
+NOTE: **Only Linux (64-bit) binaries** are currently shipped with this package.
 
 For other binaries, please use the official [`flow-bin`](https://github.com/flowtype/flow-bin).
 
