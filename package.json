@@ -1,6 +1,6 @@
 {
   "name": "@avaly/flow-bin-linux",
-  "version": "0.105.2",
+  "version": "0.106.3",
   "description": "Linux binary wrapper for FlowType",
   "license": "BSD-3-Clause",
   "repository": "avaly/flow-bin",
