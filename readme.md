@@ -1,6 +1,18 @@
 # @avaly/flow-bin-linux
 
-[![Build Status](https://travis-ci.org/avaly/flow-bin.svg?branch=master)](https://travis-ci.org/avaly/flow-bin)
+---
+
+**DEPRECATED: This repository has been deprecated in favor of using `yarn autoclean`**
+
+Sample `.yarnclean` config:
+
+```
+# flow-bin
+flow-bin/flow-osx*
+flow-bin/flow-win*
+```
+
+---
 
 > Linux binary wrapper for [Flow](http://flowtype.org) - A static type checker for JavaScript
 
